@@ -1,3 +1,11 @@
+A sequence of 9 unique days of [maariv](https://en.wikipedia.org/wiki/Maariv) is possible if the following events happen on the same day:
+
+- The day that Veten Tal umatar is begun to be said in the evening
+- The first day of a 2-day rosh chodesh tevet
+- Tuesday
+
+This produces the following unique sequence of dates:
+
 |Day of Chanukah  |Day of Week|Rosh Chodesh |Veten tal|
 |---|---|---|---|
 |3  |Fri|no |no |
