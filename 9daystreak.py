@@ -120,10 +120,10 @@ def main():
                     if cnt != 2: #must be 2 days of Rosh Chodesh
                         continue
                     match = re.search(r'(\d{4})-(\d{2})-(\d{2})', date_)
-                    rhy = match[1] #year
-                    rhm = match[2] #month
-                    rhd = match[3] #day
-                    print("RH",date_)
+                    rhy = int(match[1]) #year
+                    rhm = int(match[2]) #month
+                    rhd = int(match[3]) #day
+                    # print("RH",date_,VTUday)
                     if rhy != year: #possible if RH tevet is so late it is in january
                         continue
                     if rhm != 12:
