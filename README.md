@@ -17,3 +17,14 @@ This produces the following unique sequence of dates:
 |not chanukah |Thu|no |yes|
 |not chanukah |Fri|no |yes|
 |not chanukah |Sat|no |yes|
+
+The Following years have this property. The date listed is the day on which you begin saying ten tal at night:
+- 1766-12-02
+- 1861-12-03
+- 1956-12-04
+- 2135-12-06
+- 2382-12-07
+- 2477-12-07
+- 2656-12-09
+- 2751-12-11
+- 2998-12-11
