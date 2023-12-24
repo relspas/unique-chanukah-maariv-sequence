@@ -27,80 +27,80 @@ def main():
 
                     VTUday = None #Veten tal umatar
                     if year >= 1582 and year < 1700:
+                        if calendar.isleap(year+1) and day.day == 2:
+                            VTUday = 2
+                        elif not calendar.isleap(year+1) and day.day == 1:
+                            VTUday = 1
+                        else:
+                            continue
+                    elif year >= 1700 and year < 1800:
                         if calendar.isleap(year+1) and day.day == 3:
                             VTUday = 3
                         elif not calendar.isleap(year+1) and day.day == 2:
                             VTUday = 2
                         else:
                             continue
-                    elif year >= 1700 and year < 1800:
+                    elif year >= 1800 and year < 1900:
                         if calendar.isleap(year+1) and day.day == 4:
                             VTUday = 4
                         elif not calendar.isleap(year+1) and day.day == 3:
                             VTUday = 3
                         else:
                             continue
-                    elif year >= 1800 and year < 1900:
+                    elif year >= 1900 and year < 2100:
                         if calendar.isleap(year+1) and day.day == 5:
                             VTUday = 5
                         elif not calendar.isleap(year+1) and day.day == 4:
                             VTUday = 4
                         else:
                             continue
-                    elif year >= 1900 and year < 2100:
+                    elif year >= 2100 and year < 2200:
                         if calendar.isleap(year+1) and day.day == 6:
                             VTUday = 6
                         elif not calendar.isleap(year+1) and day.day == 5:
                             VTUday = 5
                         else:
                             continue
-                    elif year >= 2100 and year < 2200:
+                    elif year >= 2200 and year < 2300:
                         if calendar.isleap(year+1) and day.day == 7:
                             VTUday = 7
                         elif not calendar.isleap(year+1) and day.day == 6:
-                            VTUday = 6
+                            VTUday = 8
                         else:
                             continue
-                    elif year >= 2200 and year < 2300:
+                    elif year >= 2300 and year < 2500:
                         if calendar.isleap(year+1) and day.day == 8:
                             VTUday = 8
                         elif not calendar.isleap(year+1) and day.day == 7:
                             VTUday = 7
                         else:
                             continue
-                    elif year >= 2300 and year < 2500:
+                    elif year >= 2500 and year < 2600:
                         if calendar.isleap(year+1) and day.day == 9:
                             VTUday = 9
                         elif not calendar.isleap(year+1) and day.day == 8:
                             VTUday = 8
                         else:
                             continue
-                    elif year >= 2500 and year < 2600:
+                    elif year >= 2600 and year < 2700:
                         if calendar.isleap(year+1) and day.day == 10:
                             VTUday = 10
                         elif not calendar.isleap(year+1) and day.day == 9:
                             VTUday = 9
                         else:
                             continue
-                    elif year >= 2600 and year < 2700:
+                    elif year >= 2700 and year < 2900:
                         if calendar.isleap(year+1) and day.day == 11:
                             VTUday = 11
                         elif not calendar.isleap(year+1) and day.day == 10:
                             VTUday = 10
                         else:
                             continue
-                    elif year >= 2700 and year < 2900:
+                    elif year >= 2900 and year < 3000:
                         if calendar.isleap(year+1) and day.day == 12:
                             VTUday = 12
                         elif not calendar.isleap(year+1) and day.day == 11:
                             VTUday = 11
-                        else:
-                            continue
-                    elif year >= 2900 and year < 3000:
-                        if calendar.isleap(year+1) and day.day == 13:
-                            VTUday = 13
-                        elif not calendar.isleap(year+1) and day.day == 12:
-                            VTUday = 12
                         else:
                             continue
                     else:
